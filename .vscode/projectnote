@@ -1,0 +1,124 @@
+Project Guideline for Educational Website
+
+1. Project Overview
+
+Project Name: (Choose a suitable name, e.g., "EduTech Hub")
+
+Description: A modern educational platform designed to engage learners through interactive lessons, project-based learning, and real-world applications.
+
+Target Audience: Students, educators, and lifelong learners.
+
+Primary Colors: White, Orange, and Yellow (aligning with the educational theme).
+
+Goals:
+
+Provide high-quality educational resources in coding, mathematics, and STEAM subjects.
+
+Offer interactive learning modules and project-based activities.
+
+Enable educators to create and manage courses.
+
+Implement a student progress tracking system.
+
+2. Tech Stack
+
+Frontend: React.js (with Bootstrap for styling)
+
+Backend: Node.js with Express.js
+
+Database: MongoDB (Mongoose ORM)
+
+Authentication: Firebase Authentication / JWT
+
+Hosting: Vercel for frontend, Render/Heroku for backend
+
+Version Control: Git & GitHub
+
+Other Tools:
+
+Postman (for API testing)
+
+Redux/Zustand (for state management)
+
+WebRTC / Video API (for live classes)
+
+3. Development Phases
+
+Phase 1: Planning & Setup
+
+Define user roles (Students, Educators, Admins).
+
+Design UI/UX wireframes and course structure.
+
+Set up GitHub repository and project board.
+
+Phase 2: Frontend Development
+
+Develop key pages:
+
+Home Page: Introduction & featured courses.
+
+Course Catalog: Browse and filter courses.
+
+Course Page: Lessons, videos, and quizzes.
+
+Dashboard: Progress tracking and user profile.
+
+Admin Panel: Manage users and content.
+
+Implement React Router for seamless navigation.
+
+Phase 3: Backend Development
+
+Set up Express.js with API routes:
+
+User Authentication: Signup/login with Firebase/JWT.
+
+Course Management: Create, update, delete courses.
+
+Progress Tracking: Store and update user progress.
+
+Quiz & Assignments: Store scores and responses.
+
+Phase 4: Database & Storage
+
+Design MongoDB schema for users, courses, progress tracking.
+
+Use Firebase Storage for video lectures and materials.
+
+Phase 5: Interactive Features
+
+Discussion Forum (Real-time chat for student-educator interaction).
+
+Gamification (Badges, leaderboards, and certificates).
+
+Live Classes (WebRTC or Zoom integration).
+
+Phase 6: Testing & Debugging
+
+Conduct unit testing with Jest for frontend & backend.
+
+Test API functionality using Postman.
+
+Debug UI/UX and fix performance issues.
+
+Phase 7: Deployment & Maintenance
+
+Deploy frontend on Vercel and backend on Render/Heroku.
+
+Configure custom domain & SSL security.
+
+Set up monitoring tools (Google Analytics, Firebase Crashlytics).
+
+Plan for future updates and course expansions.
+
+4. Best Practices
+
+Responsive Design: Ensure mobile and desktop compatibility.
+
+Clean Code & Modular Structure: Follow best coding practices (DRY, SOLID).
+
+Security Measures: Use JWT for authentication, input validation, and database security.
+
+Version Control: Implement Git branching strategy (main, develop, feature branches).
+
